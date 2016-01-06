@@ -1,2 +1,14 @@
+SUPLA WIFI SOCKET
+
 eagle.flash.bin-------->0x00000
 eagle.irom0text.bin---->0x40000
+
+PORT SETTINGS:
+
+RELAY GPIO4
+BUTTON GPIO5
+RGB LED 
+    - RED GPIO13
+    - GREEN GPIO12
+    - BLUE GPIO14
+
