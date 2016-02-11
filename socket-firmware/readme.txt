@@ -15,5 +15,7 @@ RGB LED
 Manuals:
 -EN-
 http://www.instructables.com/id/ESP8266-and-Relay-Control-Using-Smartphone/
+https://www.supla.org/download/wifisocket-manual-en.pdf
 -PL-
 http://majsterkowo.pl/esp8266-i-sterowanie-przekaznikiem-przy-pomocy-smartfona/
+https://www.supla.org/download/wifisocket-manual-pl.pdf
