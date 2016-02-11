@@ -17,3 +17,10 @@ INPUT PORT1 GPIO12
 IMPUT PORT2 GPIO14
 
 GPIO12,GPIO14 operate in two modes. In and Out (In - INPUT, Out - LED)
+
+Manuals:
+-EN-
+http://www.instructables.com/id/ESP8266-and-Relay-Control-Using-Smartphone/
+-PL-
+http://majsterkowo.pl/esp8266-i-sterowanie-przekaznikiem-przy-pomocy-smartfona/
+
