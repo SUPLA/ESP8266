@@ -12,6 +12,8 @@ RGB LED
     - GREEN GPIO12
     - BLUE GPIO14
 
+DS18B20 Sensor GPIO2
+
 Manuals:
 -EN-
 http://www.instructables.com/id/ESP8266-and-Relay-Control-Using-Smartphone/
