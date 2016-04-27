@@ -5,5 +5,5 @@ gate_module_esp01_eagle.irom0text.bin---->0x40000
 
 PORT SETTINGS:
 
-RELAY GPIO0
+[CHANNEL0] RELAY GPIO0
 BUTTON GPIO2

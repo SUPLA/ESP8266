@@ -6,4 +6,4 @@ thermometer_esp01_eagle.irom0text.bin---->0x40000
 PORT SETTINGS:
 
 BUTTON GPIO0
-DS18B20 GPIO2
+[CHANNEL0] DS18B20 GPIO2
