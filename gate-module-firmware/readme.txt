@@ -3,6 +3,17 @@ SUPLA WIFI GATE MODULE
 eagle.flash.bin-------->0x00000
 eagle.irom0text.bin---->0x40000
 
+-OR-
+
+gate_module_dht11_eagle.flash.bin
+gate_module_dht11_eagle.irom0text.bin
+
+-OR-
+
+gate_module_dht22_eagle.flash.bin
+gate_module_dht22_eagle.irom0text.bin
+
+
 PORT SETTINGS:
 
   [CHANNEL0] RELAY1 GPIO4
@@ -18,7 +29,14 @@ PORT SETTINGS:
 
   GPIO12,GPIO14 operate in two modes. In and Out (In - INPUT, Out - LED)
 
-  [CHANNEL4] DS18B20 Sensor GPIO2
+  [CHANNEL4] DS18B20/DHT11/DHT22 Sensor GPIO2
+
+----------------------------------------------------------
+----------------------------------------------------------
+----------------------------------------------------------
+
+wroom-eagle.flash.bin-------->0x00000
+wroom-eagle.irom0text.bin---->0x40000
 
 WROOM PORT SETTINGS:
 
