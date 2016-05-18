@@ -5,13 +5,13 @@ eagle.irom0text.bin---->0x40000
 
 -OR-
 
-gate_module_dht11_eagle.flash.bin
-gate_module_dht11_eagle.irom0text.bin
+gate_module_dht11_eagle.flash.bin-------->0x00000
+gate_module_dht11_eagle.irom0text.bin---->0x40000
 
 -OR-
 
-gate_module_dht22_eagle.flash.bin
-gate_module_dht22_eagle.irom0text.bin
+gate_module_dht22_eagle.flash.bin-------->0x00000
+gate_module_dht22_eagle.irom0text.bin---->0x40000
 
 
 PORT SETTINGS:
