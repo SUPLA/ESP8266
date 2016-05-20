@@ -1,7 +1,7 @@
 SUPLA WIFI ROLLER SHUTTER MODULE
 
-eagle.flash.bin-------->0x00000
-eagle.irom0text.bin---->0x40000
+rs_module_eagle.flash.bin-------->0x00000
+rs_module_eagle.irom0text.bin---->0x40000
 
 PORT SETTINGS:
 
@@ -18,6 +18,13 @@ PORT SETTINGS:
   GPIO12 operate in two modes. In and Out (In - INPUT, Out - LED)
 
   [CHANNEL2] DS18B20 Sensor GPIO2
+
+// ---------------------------------------------
+// ---------------------------------------------
+// ---------------------------------------------
+
+rs_module_wroom_eagle.flash.bin-------->0x00000
+rs_module_wroom_eagle.irom0text.bin---->0x40000
 
 WROOM PORT SETTINGS:
 
