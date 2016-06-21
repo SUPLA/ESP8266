@@ -1,0 +1,18 @@
+SUPLA RGBW CONTROLLER
+
+rgbw_nossl_eagle.flash.bin-------->0x00000
+rgbw_nossl_eagle.irom0text.bin---->0x40000
+
+PORT SETTINGS:
+
+  CFG BUTTON GPIO0
+
+  LED STRIP PWM 
+      - RED GPIO12
+      - GREEN GPIO13
+      - BLUE GPIO14
+
+  WHITE BRIGHTNESS PWM - GPIO4
+  COLOR BRIGHTNESS PWM - GPIO5
+
+
