@@ -1,7 +1,13 @@
 SUPLA RGBW CONTROLLER
 
+512KB Flash (NO SSL SUPPORT):
 rgbw_nossl_eagle.flash.bin-------->0x00000
 rgbw_nossl_eagle.irom0text.bin---->0x40000
+
+1MB Flash:
+boot_v1.2.bin--------------------->0x00000
+rgbw_wroom_user1.1024.new.2.bin--->0x01000
+
 
 PORT SETTINGS:
 
