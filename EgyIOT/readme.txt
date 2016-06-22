@@ -4,7 +4,7 @@ EgyIOT_nossl_eagle.flash.bin-------->0x00000
 EgyIOT_nossl_eagle.irom0text.bin---->0x40000
 
 BAUDRATE: 115200
-Flash Size: 1MByte
+Flash Size: 512KByte
 Flash speed: 40Mhz
 SPI Mode: QIO
 
