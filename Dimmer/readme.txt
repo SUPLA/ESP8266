@@ -10,3 +10,8 @@ PORT SETTINGS:
   DIMMER PWM - GPIO4
 
 
+//-------------------------------------------
+SUPLA - DIMMER PWM 490Hz
+
+dimmer490_nossl_eagle.flash.bin-------->0x00000
+dimmer490_nossl_eagle.irom0text.bin---->0x40000
