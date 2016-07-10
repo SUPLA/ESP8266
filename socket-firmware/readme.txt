@@ -1,7 +1,7 @@
 SUPLA WIFI SOCKET
 
-eagle.flash.bin-------->0x00000
-eagle.irom0text.bin---->0x40000
+wifisocket_eagle.flash.bin-------->0x00000
+wifisocket_eagle.irom0text.bin---->0x40000
 
 PORT SETTINGS:
 
@@ -13,6 +13,42 @@ RGB LED
     - BLUE GPIO14
 
 [CHANNEL1] DS18B20 Sensor GPIO2
+
+//--------------------------------------------------------------------------
+//--------------------------------------------------------------------------
+//--------------------------------------------------------------------------
+
+SUPLA WIFI SOCKET (GPIO 5<->4)
+
+wifisocket_54_eagle.flash.bin-------->0x00000
+wifisocket_54_eagle.irom0text.bin---->0x40000
+
+PORT SETTINGS:
+
+[CHANNEL0] RELAY GPIO5
+BUTTON GPIO4
+RGB LED
+    - RED GPIO13
+    - GREEN GPIO12
+    - BLUE GPIO14
+
+[CHANNEL1] DS18B20 Sensor GPIO2
+
+
+//--------------------------------------------------------------------------
+//--------------------------------------------------------------------------
+//--------------------------------------------------------------------------
+
+SUPLA WIFI SOCKET FOR ESP01
+
+wifisocket_esp01_eagle.flash.bin-------->0x00000
+wifisocket_esp01_eagle.irom0text.bin---->0x40000
+
+PORT SETTINGS:
+
+[CHANNEL0] RELAY GPIO0
+BUTTON GPIO2
+
 
 Manuals:
 -EN-
