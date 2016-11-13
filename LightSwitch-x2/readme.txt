@@ -6,16 +6,24 @@ Firmware for ESP-07 with flash 1MByte:
 lightswitch_x2_noFOTA_1M_eagle.flash.bin ------------> 0x00000
 lightswitch_x2_noFOTA_1M_eagle.irom0text.bin --------> 0x40000
 
+PORT SETTINGS:
+Relay1  - GPIO4
+Relay2  - GPIO13
+BUTTON  - GPIO5  pull up / CFG MODE
+Sensor1 - GPIO14 pull up / turn on/off relay1 (mode "switch" or "button")
+Sensor2 - GPIO12 pull up / turn on/off relay2 (mode "switch" or "button")
+DS18B20 - GPIO2  thermometer
+LED RED - GPIO15 
 
 Firmware for ESP-12 with flash 1MByte and changed GPIO5 and GPIO4:
 
 lightswitch_x2_54_noFOTA_1M_eagle.flash.bin ------------> 0x00000
 lightswitch_x2_54_noFOTA_1M_eagle.irom0text.bin --------> 0x40000
 
-
-Relay1  - GPIO4
+PORT SETTINGS:
+Relay1  - GPIO5
 Relay2  - GPIO13
-BUTTON  - GPIO5  pull up / CFG MODE
+BUTTON  - GPIO4  pull up / CFG MODE
 Sensor1 - GPIO14 pull up / turn on/off relay1 (mode "switch" or "button")
 Sensor2 - GPIO12 pull up / turn on/off relay2 (mode "switch" or "button")
 DS18B20 - GPIO2  thermometer
@@ -29,19 +37,18 @@ SPI MODE QIO
 BAUDRATE 11520
 FLASH SIZE 8Mbit (1MByte)
 
-
 /////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////
-
 
 Firmware for ESP-12, ESP-12E, ESP-12F with flash 4MByte and changed GPIO5 and GPIO4
 
 lightswitch_x2_54_noFOTA_4M_eagle.flash.bin ------------> 0x00000
 lightswitch_x2_54_noFOTA_4M_eagle.irom0text.bin --------> 0x40000
 
-
+PORT SETTINGS:
+Relay1  - GPIO5
 Relay2  - GPIO13
-BUTTON  - GPIO5  pull up / CFG MODE
+BUTTON  - GPIO4 pull up / CFG MODE
 Sensor1 - GPIO14 pull up / turn on/off relay1 (mode "switch" or "button")
 Sensor2 - GPIO12 pull up / turn on/off relay2 (mode "switch" or "button")
 DS18B20 - GPIO2  thermometer
@@ -56,10 +63,7 @@ BAUDRATE 11520
 FLASH SIZE 32Mbit (4MByte)
 
 
-
 // CFG MODE -----------------------------------------------------
-
-
 
 To bring the device into configuration
 mode, press and hold button for at least 5 sec. When in configuration mode,
