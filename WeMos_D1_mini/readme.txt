@@ -38,3 +38,12 @@ In order to enter or change the settings, you need to:
 - Open access page: http://192.168.4.1
 - Enter user name and password to the WiFi through which the device will get Internet access.
 - Enter Server address, Location ID and Location Password, which will be provided once you sign in at cloud.supla.org
+
+*****************************************************************
+*****************************************************************
+Opis opcji w nazwach plikow:
+
+"1.8.x" - wersja oprogramowania
+"restore" - z pamiecia stanu przekaznika
+"NC" - sensor typu "Normaly Close"
+Opis takze w plikach Readme.txt w paczkach *.rar
