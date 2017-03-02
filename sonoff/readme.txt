@@ -1,3 +1,20 @@
+SUPLA FOR ITEAD SONOFF WiFi Smart Switch + DS18B20
+v2.0
+
+boot_v1.5.bin--------->0x00000
+sonoff_ds18b20_user1.1024.new.2.bin---->0x01000
+
+RX (GPIO3) - OneWire DAT
+
+BAUDRATE: 115200
+Flash Size: 1MByte
+Flash speed: 40Mhz
+SPI Mode: DIO
+
+// ---------------------------------------------------
+// ---------------------------------------------------
+// ---------------------------------------------------
+
 SUPLA FOR ITEAD SONOFF WiFi Smart Switch
 
 sonoff_eagle.flash.bin-------->0x00000
