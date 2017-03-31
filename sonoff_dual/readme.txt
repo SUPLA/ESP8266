@@ -6,7 +6,7 @@ sonoff_dual_user1.1024.new.2.bin---->0x01000
 BAUDRATE: 115200
 Flash Size: 1MByte
 Flash speed: 40Mhz
-SPI Mode: QIO
+SPI Mode: DIO
 
 To bring the device into configuration
 mode, press and hold button for at least 5 sec. When in configuration mode,
