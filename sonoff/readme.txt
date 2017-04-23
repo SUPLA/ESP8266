@@ -1,4 +1,4 @@
-SUPLA FOR ITEAD SONOFF WiFi Smart Switch
+﻿SUPLA FOR ITEAD SONOFF WiFi Smart Switch
 
 sonoff_eagle.flash.bin-------->0x00000
 sonoff_eagle.irom0text.bin---->0x40000
@@ -41,12 +41,13 @@ In order to enter or change the settings, you need to:
 
 Opis opcji w nazwach plikow do kompilacji opracowanych przez @Zybi
 
-"1.8.x" - wersja oprogramowania
-"restore" - z pamiecia stanu przekaznika
+"v.x" - wersja oprogramowania
 "inv" - z odwrocona logika swiecenia diody, czyli jej wygaszenie w przy normalnej pracy modułu
 "p4" - soft dla płytki z 4 pinami, czyli czujnik na RX (GPIO3)
 "p5" - soft dla płytki z 5 pinami, czyli czujnik na piątym pinie (GPIO14)
 "switch_mode" i "p5" - wersja z obsluga przycisku sterowania recznego w trybie switch na piatym pinie (GPIO 14), a czujnik na RX (GPIO3)
 "gate" - wersja z czasowym zalaczaniem kanalu, czyli tak jak gate_module (uwaga na wyjsciu napiecie sieci!)
+"NO" - wersja z czujnikiem otwarcia "Normal Opened", a stan aktywny, czyli zwarcie do GDN daje ikonę "zamkniętą"
+"NC" - wersja z czujnikiem otwarcia "Normal Closed", a stan aktywny, czyli zwarcie do GDN daje ikonę "otwartą"
 
 Opis takze w plikach readme.txt w paczkach *.rar
