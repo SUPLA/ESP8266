@@ -1,1 +1,0 @@
-Please read readme.txt file in *.rar package.

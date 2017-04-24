@@ -1,4 +1,21 @@
-﻿SUPLA FOR ITEAD SONOFF WiFi Smart Switch
+SUPLA FOR ITEAD SONOFF WiFi Smart Switch + DS18B20
+v2.0
+
+boot_v1.5.bin--------->0x00000
+sonoff_ds18b20_user1.1024.new.2.bin---->0x01000
+
+RX (GPIO3) - OneWire DAT
+
+BAUDRATE: 115200
+Flash Size: 1MByte
+Flash speed: 40Mhz
+SPI Mode: DIO
+
+// ---------------------------------------------------
+// ---------------------------------------------------
+// ---------------------------------------------------
+
+SUPLA FOR ITEAD SONOFF WiFi Smart Switch
 
 sonoff_eagle.flash.bin-------->0x00000
 sonoff_eagle.irom0text.bin---->0x40000
@@ -41,13 +58,12 @@ In order to enter or change the settings, you need to:
 
 Opis opcji w nazwach plikow do kompilacji opracowanych przez @Zybi
 
-"v.x" - wersja oprogramowania
+"1.8.x" - wersja oprogramowania
+"restore" - z pamiecia stanu przekaznika
 "inv" - z odwrocona logika swiecenia diody, czyli jej wygaszenie w przy normalnej pracy modułu
 "p4" - soft dla płytki z 4 pinami, czyli czujnik na RX (GPIO3)
 "p5" - soft dla płytki z 5 pinami, czyli czujnik na piątym pinie (GPIO14)
 "switch_mode" i "p5" - wersja z obsluga przycisku sterowania recznego w trybie switch na piatym pinie (GPIO 14), a czujnik na RX (GPIO3)
 "gate" - wersja z czasowym zalaczaniem kanalu, czyli tak jak gate_module (uwaga na wyjsciu napiecie sieci!)
-"NO" - wersja z czujnikiem otwarcia "Normal Opened", a stan aktywny, czyli zwarcie do GDN daje ikonę "zamkniętą"
-"NC" - wersja z czujnikiem otwarcia "Normal Closed", a stan aktywny, czyli zwarcie do GDN daje ikonę "otwartą"
 
 Opis takze w plikach readme.txt w paczkach *.rar
