@@ -1,5 +1,5 @@
 # ESP8266
-Supla for ESP8266
 
+SUPLA firmware v2.0 compiled by @Zybi
 
-Source code: https://github.com/SUPLA/supla-espressif-esp
+For details please read file "readme.txt" in *.rar package.
