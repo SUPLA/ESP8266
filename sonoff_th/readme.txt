@@ -1,4 +1,5 @@
 SUPLA FOR ITEAD SONOFF TH10/16
+v2.5
 
 boot_v1.5.bin -------->0x00000
 
@@ -8,10 +9,12 @@ sonoff_th10_user1.1024.new.2.bin---->0x01000
 TH16
 sonoff_th16_user1.1024.new.2.bin---->0x01000
 
+esp_init_data_default.bin---->0xfc000
+
 BAUDRATE: 115200
-Flash Size: 1MByte
+Flash Size: 1MByte (8Mbit)
 Flash speed: 40Mhz
-SPI Mode: QIO
+SPI Mode: DIO
 
 Youtube: https://youtu.be/fGVnKzcOeao
 
@@ -25,4 +28,4 @@ In order to enter or change the settings, you need to:
 - Connect to WiFi called „SUPLA-ESP8266” from any computer with a wireless network card and Internet browser.
 - Open access page: http://192.168.4.1
 - Enter user name and password to the WiFi through which the device will get Internet access.
-- Enter Server address, Location ID and Location Password, which will be provided once you sign in at cloud.supla.org
+- Enter Server and e-mail address, which will be provided once you sign in at cloud.supla.org

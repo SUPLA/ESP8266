@@ -1,49 +1,36 @@
 SUPLA WIFI ROLLER SHUTTER MODULE
+v2.5
 
-rs_module_eagle.flash.bin-------->0x00000
-rs_module_eagle.irom0text.bin---->0x40000
+boot_v1.5.bin--------->0x00000
+rs_module_user1.1024.new.2.bin---->0x01000
+esp_init_data_default.bin---->0xfc000
+
+BAUDRATE: 115200
+Flash Size: 1MByte (8Mbit)
+Flash speed: 40Mhz
+SPI Mode: DIO
 
 PORT SETTINGS:
 
-  [CHANNEL0] RELAY1 GPIO4
-  [CHANNEL0] RELAY2 GPIO13
-  CFG BUTTON GPIO5
+  RELAY1 GPIO4
+  RELAY2 GPIO5
+  BTN1 GPIO13
+  BTN2 GPIO14
+  CFG BUTTON GPIO0
+  LED GPIO16 
+  SENSOR GPIO 12
 
-  LED 
-      - GREEN GPIO12
-      - BLUE GPIO14
+// CFG MODE ----------------------------------------
 
-  [CHANNEL1] INPUT_PORT1 GPIO12
+To bring the device into configuration
+mode, press and hold button for at least 5 sec. When in configuration mode,
+the device goes into Access Point mode.
 
-  GPIO12 operate in two modes. In and Out (In - INPUT, Out - LED)
+In order to enter or change the settings, you need to:
 
-  [CHANNEL2] DS18B20 Sensor GPIO2
+- Sign in at https://cloud.supla.org (registration is free of charge)
+- Connect to WiFi called „SUPLA-ESP8266” from any computer with a wireless network card and Internet browser.
+- Open access page: http://192.168.4.1
+- Enter user name and password to the WiFi through which the device will get Internet access.
+- Enter Server and e-mail address, which will be provided once you sign in at cloud.supla.org
 
-// ---------------------------------------------
-// ---------------------------------------------
-// ---------------------------------------------
-
-rs_module_wroom_eagle.flash.bin-------->0x00000
-rs_module_wroom_eagle.irom0text.bin---->0x40000
-
-WROOM PORT SETTINGS:
-
-  [CHANNEL0] RELAY1 GPIO4
-  [CHANNEL0] RELAY2 GPIO14
-  CFG BUTTON GPIO13
-
-  LED
-      - GREEN GPIO5
-      - BLUE GPIO12
-
-  [CHANNEL1] INPUT_PORT1 GPIO5
-
-  GPIO5 operate in two modes. In and Out (In - INPUT, Out - LED)
-
-  [CHANNEL2] DS18B20 Sensor GPIO2
-
-v1.8
-// ---------------------------------------------
-// ---------------------------------------------
-// ---------------------------------------------
-LED...
