@@ -2,11 +2,11 @@ SUPLA WIFI ROLLER SHUTTER MODULE
 v2.5
 
 boot_v1.5.bin--------->0x00000
-rs_module_user1.1024.new.2.bin---->0x01000
+rs_module_user1.2048.new.2.bin---->0x01000
 esp_init_data_default.bin---->0xfc000
 
 BAUDRATE: 115200
-Flash Size: 1MByte (8Mbit)
+Flash Size: 2MByte (16Mbit-C1)
 Flash speed: 40Mhz
 SPI Mode: DIO
 
