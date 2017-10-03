@@ -1,8 +1,8 @@
 SUPLA WIFI SOCKET
-v2.5
+v2.5.3
 
-boot_v1.5.bin--------->0x00000
-wifisocket_user1.1024.new.2.bin---->0x01000
+wifisocket_1024_eagle.flash.bin--------->0x00000
+wifisocket_1024_eagle.irom0text.bin---->0x40000
 esp_init_data_default.bin---->0xfc000
 
 BAUDRATE: 115200
@@ -26,10 +26,10 @@ RGB LED
 //--------------------------------------------------------------------------
 
 SUPLA WIFI SOCKET (GPIO 5<->4)
-v2.5
+v2.5.3
 
-boot_v1.5.bin--------->0x00000
-wifisocket_54_user1.1024.new.2.bin---->0x01000
+wifisocket_54_1024_eagle.flash.bin--------->0x00000
+wifisocket_54_1024_eagle.irom0text.bin---->0x40000
 esp_init_data_default.bin---->0xfc000
 
 BAUDRATE: 115200
