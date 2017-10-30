@@ -1,3 +1,3 @@
-SUPLA firmware compiled by @Zybi for board "WeMos D1 mini".
+SUPLA firmware compiled by @Zybi for H801 module.
 
 For details please read file "readme.txt" in *.rar package.

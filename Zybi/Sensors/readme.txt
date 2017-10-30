@@ -1,3 +1,3 @@
-SUPLA firmware v2.0 compiled by @Zybi.
+SUPLA Sensors firmware compiled by @Zybi.
 
 For details please read file "readme.txt" in *.rar package.

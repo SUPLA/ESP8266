@@ -1,3 +1,3 @@
-SUPLA firmware compiled by @Zybi for board "WeMos D1 mini".
+SUPLA DIMMER firmware compiled by @Zybi
 
 For details please read file "readme.txt" in *.rar package.
