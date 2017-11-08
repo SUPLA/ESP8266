@@ -10,7 +10,8 @@ GPI14 - OneWire DAT
 BAUDRATE: 115200
 Flash Size: 1MByte (8Mbit)
 Flash speed: 40Mhz
-SPI Mode: DIO
+SPI Mode in board v1.0: DIO
+SPI Mode in board v1.1: DOUT
 
 Youtube: https://www.youtube.com/watch?v=jO9yX2QVeoY
 
