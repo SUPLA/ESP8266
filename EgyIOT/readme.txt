@@ -16,6 +16,8 @@ RGB (R) GPIO14
 RGB (G) GPIO12
 RGB (B) GPIO5
 
+CFG-PORT GPIO0
+
 // CFG MODE ----------------------------------------
 
 To bring the device into configuration
