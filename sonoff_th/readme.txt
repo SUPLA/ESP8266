@@ -1,5 +1,5 @@
 SUPLA FOR ITEAD SONOFF TH10/16
-v2.5
+v2.5.3
 
 boot_v1.5.bin -------->0x00000
 

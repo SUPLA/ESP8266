@@ -1,5 +1,5 @@
 SUPLA WIFI ROLLER SHUTTER MODULE
-v2.5.3
+v2.6
 
 boot_v1.5.bin--------->0x00000
 rs_module_user1.2048.new.2.bin---->0x01000
